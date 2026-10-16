@@ -1,0 +1,29 @@
+# Frontend React
+node_modules/
+dist/
+.env
+.env.*
+
+# Backend + IA Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Datasets (ne pas versionner)
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+*.dump
+
+# Neo4j 
+neo4j/data/
+neo4j/logs/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
